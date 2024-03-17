@@ -1,0 +1,168 @@
+body{
+    background-color:#ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 20px;
+}
+h2{
+    font-family: "Righteous", sans-serif;
+    font-weight: bolder;
+}
+h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    opacity: 1.0;
+}
+
+a{
+    color: black;
+}
+
+/* containers */
+.top-container{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.bottom-container{
+    margin-top: 0px;    
+    padding: 0px;
+}
+.home-container{
+    background-image: url("mechatronics_0.png");
+    height: 100vh;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 40px;
+}
+.middle-container{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.basketball{
+    border-radius: 75px;
+    height: 150px;
+}
+.robotics{
+    height: 150px;
+}
+.hello{
+    height: 150px;
+}
+p{
+    color: white;
+}
+.description{
+    font-family: "Dosis", sans-serif;
+    line-height: 20px;
+}
+/* 
+home container */
+
+.transparent-image{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+
+/* profile */
+
+.profile{
+    height: 100vh;
+}
+.short-description{
+    color: black;
+    line-height: 30px ;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+}
+.greeting{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.desc-container{
+    text-align: start;
+    padding: 3rem;
+}
+
+
+/* skills */
+.skill{
+    background-color: #76ABAE;
+    padding-bottom: 20px;
+}
+
+.skills{
+    background-color: #76ABAE;
+}
+.skill-row{
+    text-align: start   ;
+}
+.carouselSlides{
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+li{
+    font-family: "Dosis", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 25px;
+}
+.hobbies{
+    background-color: #76ABAE;
+}
+
+/* navigation */
+.navigator{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.previous-button{
+    background-color: white;
+    height: 10px;
+    opacity: 0.5;
+    padding: 0;
+    width: 50px;
+    position: relative;
+    right: -400px;
+    
+}
+.previous-button:hover{
+    cursor: pointer;
+}
+.next-button{
+    background-color: white;
+    height: 10px;
+    opacity: 0.5;
+    padding: 0;
+    width: 50px;
+    position: relative;
+    left: 50vw;
+}
+.next-button:hover{
+    cursor: pointer;
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-brands{
+    font-size: 20px;
+}
+.fa-github{
+    margin-left: 39vw;
+}
+.fa-linkedIn{
+    margin-right: auto;
+}
