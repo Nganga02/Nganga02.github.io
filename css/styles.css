@@ -12,9 +12,9 @@ h2{
     font-weight: bolder;
 }
 h1{
-    font-family: "Righteous", sans-serif;
-    font-size: 50px;
-    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    color: #e0b5f2;
     font-weight: bold;
     opacity: 1.0;
 }
@@ -33,14 +33,14 @@ a{
     padding: 0px;
 }
 .home-container{
-    background-image: url("mechatronics_0.png");
+    background-color: #230745;
     height: 100vh;
     margin: 0px;
     padding: 0%;
     padding-bottom: 40px;
 }
 .middle-container{
-    background-color: white;
+    background-color: #eedaf5;
     padding: 20px 0;
 }
 
@@ -56,10 +56,13 @@ a{
 }
 p{
     color: white;
+    font-size: large;
 }
 .description{
-    font-family: "Dosis", sans-serif;
-    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    color:#eedaf5;
+    font-weight: bold;
+    line-height: 30px;
 }
 /* 
 home container */
@@ -77,12 +80,11 @@ home container */
 }
 .short-description{
     color: black;
-    line-height: 30px ;
-    font-family: "Dosis", sans-serif;
-    font-weight: bold;
+    line-height: 40px ;
+    font-family: "Poppins", sans-serif;
 }
 .greeting{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather' ;
     font-size: 40px;
     font-weight: bolder;
 }
@@ -93,13 +95,10 @@ home container */
 
 
 /* skills */
-.skill{
-    background-color: #76ABAE;
+.portfolio{
+    background-color: #230745;
+    color: #eedaf5;
     padding-bottom: 20px;
-}
-
-.skills{
-    background-color: #76ABAE;
 }
 .skill-row{
     text-align: start   ;
