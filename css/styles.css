@@ -8,7 +8,7 @@ div{
     padding: 20px;
 }
 h2{
-    font-family: "Righteous", sans-serif;
+    font-family: "Merriweather";
     font-weight: bolder;
 }
 h1{
@@ -56,7 +56,7 @@ a{
 }
 p{
     color: white;
-    font-size: large;
+    font-size: larger;
 }
 .description{
     font-family: "Poppins", sans-serif;
@@ -96,9 +96,9 @@ home container */
 
 /* skills */
 .portfolio{
+    height: 100vh;
     background-color: #230745;
     color: #eedaf5;
-    padding-bottom: 20px;
 }
 .skill-row{
     text-align: start   ;
@@ -164,4 +164,11 @@ li{
 }
 .fa-linkedIn{
     margin-right: auto;
+}
+
+
+.elevator-pitch{
+    height: 100vh;
+    background-color: #e0b5f2;
+    color: black
 }
